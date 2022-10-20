@@ -1,0 +1,10 @@
+<p style="color: green"><%= notice %></p>
+
+<%= render @user_trasaction %>
+
+<div>
+  <%= link_to "Edit this user trasaction", edit_user_trasaction_path(@user_trasaction) %> |
+  <%= link_to "Back to user trasactions", user_trasactions_path %>
+
+  <%= button_to "Destroy this user trasaction", @user_trasaction, method: :delete %>
+</div>
